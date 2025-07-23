@@ -8,7 +8,7 @@
     "build:github": "GITHUB_PAGES=true next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next build",
+    "export": "GITHUB_PAGES=true next build",
     "create-tool": "node scripts/create-tool.js",
     "create-blog-post": "node scripts/create-blog-post.js"
   },
