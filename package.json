@@ -5,10 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:github": "GITHUB_PAGES=true next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "GITHUB_PAGES=true next build",
     "create-tool": "node scripts/create-tool.js",
     "create-blog-post": "node scripts/create-blog-post.js"
   },
@@ -25,8 +23,7 @@
     "date-fns": "^3.0.0",
     "react-markdown": "^9.0.0",
     "react-syntax-highlighter": "^15.5.0",
-    "@tailwindcss/typography": "^0.5.10",
-    "@vercel/kv": "^2.0.0"
+    "@tailwindcss/typography": "^0.5.10"
   },
   "devDependencies": {
     "typescript": "^5.3.0",
